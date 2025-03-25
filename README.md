@@ -1,5 +1,7 @@
 <<<<<<< HEAD
 # Counter_app
+
+https://superb-salamander-81030d.netlify.app/
 =======
 # React + Vite
 
