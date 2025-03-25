@@ -1,4 +1,5 @@
 import react, {useState} from 'react'
+import './App.css'
 
 const App= () => {
 
@@ -8,13 +9,19 @@ const App= () => {
   const decrement = () => setCount(count-1)
   const reset = () => setCount(0)
   return(
-    <>
+   <div className="container">
+     <div className='counter_container'>
+        <div className="counter_header">
         <h1>Counter App</h1>
-        <h2>count: {count}</h2>
-        <button onClick={increment}>Increment</button>
+        </div>
+        <h2 >count: <span className='count'>{count}</span></h2>
+       <div className="container_button">
+       <button onClick={increment}>Increment</button>
         <button onClick={reset}>Reset</button>
         <button onClick={decrement}>Decrement</button>
-    </>
+       </div>
+    </div>
+   </div>
   )
 }
 

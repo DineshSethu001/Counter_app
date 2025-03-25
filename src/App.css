@@ -1,0 +1,45 @@
+/* Ensure the entire page is centered */
+:root{
+    --primary-color:#E1EACD;
+    --seconday-color:#8D77AB;
+}
+
+body, html {
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #f0f0f0; /* Optional: Add background */
+}
+
+.counter_container {
+    background-color: var(--primary-color); /* Use your primary color */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color:var(--seconday-color)
+}
+
+.count{
+    color:#EB5B00;
+}
+.container_button {
+     display:flex ;
+     gap:10px;
+     justify-content: center;
+
+    
+}
+
+.container_button button{
+    background-color: #A35C7A;
+    color:#BAD8B6;
+    border-radius: 6px;
+    padding: 0.8rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
